@@ -1,0 +1,41 @@
+ul li{
+    margin-left: 1.5rem;
+    list-style: none;
+    float:inline-start;
+    margin-right: 1.5rem;
+    color: #a55b2ad8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav {
+    border: 1px solid cornflowerblue;
+    background-color: black;
+    overflow: hidden;
+}
+li h1{
+    float: right;
+    font-size: 40px;
+}
+
+li form{
+   margin-top: 48px;
+   border: 1px solid currentColor;
+   border-radius: 5px;
+   padding: 2px;
+   display: flex;
+}
+
+input[type="search"] {
+    width: 250px;
+    border: none;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+
+
+.navright {
+    float: left
+}

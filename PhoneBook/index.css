@@ -1,0 +1,26 @@
+table{
+    margin-left: 20%;
+    margin-right: 20%;
+
+    thead{
+        background-color: pink;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+            }
+
+    td {
+        border: 1px solid red;
+        width: 350px;
+    }  
+
+    tr:nth-of-type(2n){
+        background-color: pink;
+    }
+}
+
+
+
+
+
+     
